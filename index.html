@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeStyle</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="basic d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="calculator pl-3 pr-3">
+                        <input type = "text" id = "display" class = "mt-2" readonly>
+                        <div class = "row">
+                            <div class = "col-3 mt-5">
+                                <button class = "count" onclick = "Refer('9')" >
+                                    9
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-5">
+                                <button class = "count" onclick = "Refer('8')">
+                                    8
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-5">
+                                <button class = "count" onclick = "Refer('7')">
+                                    7
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-5">
+                                <button class = " opt" onclick = "Refer('+')">
+                                    +
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-3">
+                                <button class = "count" onclick = "Refer('6')">
+                                    6
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-3">
+                                <button class = "count" onclick = "Refer('5')">
+                                    5
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-3">
+                                <button class = "count" onclick = "Refer('4')">
+                                    4
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-3">
+                                <button class = "opt" onclick = "Refer('-')">
+                                    -
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-3">
+                                <button class = "count" onclick = "Refer('3')">
+                                    3
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-3">
+                                <button class = "count" onclick = "Refer('2')">
+                                    2
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-3">
+                                <button class = "count" onclick = "Refer('1')">
+                                    1
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-3">
+                                <button class = " opt" onclick = "Refer('*')" >
+                                    *
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-3">
+                                <button class = "count" onclick = "Refer('0')">
+                                    0
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-3">
+                                <button class = "count" onclick = "Refer('00')">
+                                    00
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-3">
+                                <button class = "count" onclick = "Refer('.')">
+                                    .
+                                </button>
+                            </div>
+                            <div class = "col-3 mt-3">
+                                <button class = "opt" onclick = "Refer('/')">
+                                    /
+                                </button>
+                            </div>
+                            <div class = "col-8 mt-3">
+                                <button class = "clear" onclick = "Clear()">
+                                    CLEAR
+                                </button>
+                            </div>
+                            <div class = "col-4 mt-3">
+                                <button class = "opt" onclick = "Equal()">
+                                    =
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+.basic{
+    background-color:#edd4c0;
+    height:100vh;
+}
+.calculator{
+    background-color:#cfcbc8;
+    width:100%;
+    height:90vh;
+    border-radius:12px;
+}
+#display{
+    width:100%;
+    border:none;
+    border-radius:12px;
+    height:50px;
+}
+.count{
+    width:114%;
+    height:40px;
+    border:none;
+    background-color:aqua;
+    border-radius:12px;
+    font-size: 25px;
+}
+.opt{
+    width:114%;
+    height:40px;
+    border:none;
+    background-color:aqua;
+    border-radius:12px;
+    font-size: 20px;
+}
+.clear{
+    width:114%;
+    height:40px;
+    border:none;
+    background-color:aqua;
+    border-radius:12px;
+    font-size: 20px;  
+}
