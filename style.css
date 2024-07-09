@@ -1,9 +1,9 @@
 .basic{
-    background-color:#edd4c0;
+    background-color:rgb(229, 218, 218);
     height:100vh;
 }
 .calculator{
-    background-color:#cfcbc8;
+    background-color:rgb(249, 236, 219);
     width:100%;
     height:90vh;
     border-radius:12px;
@@ -18,7 +18,7 @@
     width:114%;
     height:40px;
     border:none;
-    background-color:aqua;
+    background-color:rgb(248, 218, 197);
     border-radius:12px;
     font-size: 25px;
 }
@@ -26,7 +26,7 @@
     width:114%;
     height:40px;
     border:none;
-    background-color:aqua;
+    background-color:rgb(211, 251, 241);
     border-radius:12px;
     font-size: 20px;
 }
@@ -34,7 +34,27 @@
     width:114%;
     height:40px;
     border:none;
-    background-color:aqua;
+    background-color:rgb(201, 221, 252);
     border-radius:12px;
     font-size: 20px;  
+}
+@media (min-width:375px){
+    .calculator{
+        width:90%;
+    }
+}
+@media (min-width:376px) and (max-width:426px){
+    .calculator{
+        width:80%;
+    }
+}
+@media (min-width:427px) and (max-width:768px){
+    .calculator{
+        width:45%;
+    }
+}
+@media (min-width:769px){
+    .calculator{
+        width:30%;
+    }
 }
